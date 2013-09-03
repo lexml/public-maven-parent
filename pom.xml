@@ -3,7 +3,7 @@
 
 	<groupId>br.gov.lexml</groupId>
 	<artifactId>public-maven-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 
 	<name>${project.artifactId}</name>
 
@@ -22,7 +22,8 @@
 		<url>https://github.com/lexml/mvn-repo</url>
 		<developerConnection>scm:git:https://github.com/lexml/${project.artifactId}.git</developerConnection>
 		<connection>scm:git:https://github.com/lexml/${project.artifactId}.git</connection>
-    </scm>
+      <tag>public-maven-parent-0.0.1</tag>
+  </scm>
 
 
 	<distributionManagement>
