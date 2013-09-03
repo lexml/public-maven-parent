@@ -22,8 +22,7 @@
 		<url>https://github.com/lexml/mvn-repo</url>
 		<developerConnection>scm:git:https://github.com/lexml/${project.artifactId}.git</developerConnection>
 		<connection>scm:git:https://github.com/lexml/${project.artifactId}.git</connection>
-	  <tag>HEAD</tag>
-  </scm>
+    </scm>
 
 
 	<distributionManagement>
