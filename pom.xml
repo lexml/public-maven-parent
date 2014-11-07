@@ -48,7 +48,7 @@
 	</repositories>
 
 	<build>
-	
+
 		<plugins>
 
 			<plugin>
@@ -82,7 +82,7 @@
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
-				<version>0.8</version>
+				<version>0.10</version>
 				<configuration>
 					<message>Maven artifacts for ${project.artifactId}
 						${project.version}</message>  <!-- git commit message -->
@@ -97,7 +97,7 @@
 					<merge>true</merge>
 				</configuration>
 				<executions>
-					<!-- run site-maven-plugin's 'site' target as part of the build's normal 
+					<!-- run site-maven-plugin's 'site' target as part of the build's normal
 						'deploy' phase -->
 					<execution>
 						<goals>
